@@ -84,7 +84,7 @@ while true
 	off
 	DrawScene()
 	al_flip_display()
-	// calcfps()
+	calcfps()
 end
 
 al_destroy_display(display)
